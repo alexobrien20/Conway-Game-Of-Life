@@ -91,6 +91,7 @@ class Game():
                         # Checks if next was pressed and game is not running
                         # Then perform one iteration
                         next_pressed = True
+                        reset_button = True
                         self.redraw_buttons('Reset', 'RESET')
                         self.one_game_iter()
                         self.draw_grid_array()
@@ -117,6 +118,7 @@ class Game():
                             self.redraw_buttons('Start','START')
                             self.redraw_buttons('Clear','RESET')
                             next_pressed = False
+                            reset_button = False
                         elif reset_button:
                             self.iteration = 0
                             self.redraw_buttons('Clear','RESET')
