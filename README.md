@@ -1,5 +1,5 @@
 # Conway's-Game-Of-Life
-A quick implementation of Conway's Game of Life in python using pygame.;
+A quick implementation of Conway's Game of Life in python using pygame.
 
 # Demo
 
