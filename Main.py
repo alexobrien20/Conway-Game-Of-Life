@@ -127,6 +127,8 @@ class Game():
                             self.draw_grid_array()
                             reset_button = False
                         else:
+                            # If the conditions for reset are not met then it clears
+                            # It gets rid of the whole history and resets to an all 'dead' grid
                             self.GRID_HISTORY = [np.zeros([int(self.GRID_WIDTH / self.BLOCK_SIZE), int(self.GRID_HEIGHT / self.BLOCK_SIZE)])]
                             self.iteration = 0
                             self.draw_grid_array()
