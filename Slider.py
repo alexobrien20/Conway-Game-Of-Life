@@ -89,6 +89,7 @@ class Slider():
         elif event.type == pygame.MOUSEBUTTONUP:
             self.rectangle_dragging = False
         elif event.type == pygame.MOUSEMOTION:
+            # Handles the user dragging the slider.
             mouse_position = pygame.mouse.get_pos()
             if self.rectangle_dragging:
                 # If the circle has been clicked then update the picture
