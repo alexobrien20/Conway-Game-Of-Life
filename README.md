@@ -9,6 +9,7 @@ A quick implementation of Conway's Game of Life in python using pygame.
  
 ```
  pip install pygame
+ pip install numpy
 ```
  Python Version 3.7.4
  
